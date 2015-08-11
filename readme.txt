@@ -1,7 +1,7 @@
 ﻿=== Plugin Name ===
 Contributors: neilgaiman
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JSTHA4HMVSQ8J
-Tags: jetpack, publicize, hashtag, hashtags
+Tags: jetpack, publicize, hashtag, hashtags, sharing, share, social, twitter, tweet
 Requires at least: 3.0.1
 Tested up to: 4.2.4
 Stable tag: trunk
