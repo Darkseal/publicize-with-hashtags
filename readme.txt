@@ -33,21 +33,39 @@ As the name says, this plugin will automatically append hashtags to any content 
 
 == Frequently Asked Questions ==
 
-None yet.
+= What if I manually insert one or more hashtags? =
+
+They will be kept as they are: the plugin won't strip out anything, it will simply add the "missing" hashtags to the Custom Message box.
+
+= What if I already inserted an hashtags identical to an existing post tag? =
+
+It won't be added again, as long as it's case-insensitive equal to the first one. The plugin will never insert a dupe hashtag on its own.
+
 
 == Screenshots ==
 
-None yet.
+1. The plugin will automatically trasform your post tags to hashtags and append them to the Publicize Widget's Custom Message box. Any existing, manually inserted hashtag will be kept and/or won't be added a second time if also included as a tag.
+
 
 == Changelog ==
+
+= 0.1.1 =
+* Added an explicative screenshot
+* Added some Frequently Asked Questions
+* Small changes to readme.txt
 
 = 0.1 =
 * First release.
 
 == Upgrade Notice ==
 
+= 0.1.1 =
+* Screenshot added
+* Frequently Asked Questions added
+* Updated installation guide
+
 = 0.1 =
-* First release.
+* First release
 
 == Authors ==
 

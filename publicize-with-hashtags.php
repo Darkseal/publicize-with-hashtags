@@ -2,7 +2,7 @@
 /*
 Plugin Name: Publicize With Hashtags
 Description: Automatically append hashtags to any content sent by Jetpack's Publicize module: hashtags will be created using post tags: dupe check and an optional length-based threshold are also included.
-Version: 0.1
+Version: 0.1.1
 License: GPL
 Author: Darkseal
 Author URI: http://www.ryadel.com/
