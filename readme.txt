@@ -30,8 +30,8 @@ As the name says, this plugin will automatically append hashtags to any content 
 * [Plugin SVN Repository](http://plugins.svn.wordpress.org/publicize-with-hashtags/) hosted by Wordpress.org (in real-time sync with the GitHub repo).
 * [Plugin GitHub Repository](https://github.com/Darkseal/publicize-with-hashtags) (in real-time sync with the official SVN repo).
 * [Plugin GitHub Page](http://darkseal.github.io/publicize-with-hashtags/).
-* TODO: Plugin official page at [Ryadel.com](https://www.ryadel.com/).
-* TODO: Ryadel.com article explaining how to use-it.
+* [Plugin official page](http://www.ryadel.com/works/publicize-with-hashtags/) at [Ryadel.com](https://www.ryadel.com/).
+* [Installation & Usage Guide](http://www.ryadel.com/en/add-hashtags-to-jetpack-publicize-shared-posts/) at [Ryadel.com](https://www.ryadel.com/).
 
 
 
@@ -68,6 +68,9 @@ It won't be added again, as long as it's case-insensitive equal to the first one
 
 == Changelog ==
 
+= 0.1.2 =
+* Fixed a bug in hashtags generation
+
 = 0.1.1 =
 * Added an explicative screenshot
 * Added some Frequently Asked Questions
@@ -81,7 +84,7 @@ It won't be added again, as long as it's case-insensitive equal to the first one
 == Upgrade Notice ==
 
 = 0.1.2 =
-Added guides & installation instruction links.
+* Fixed a major bug
 
 = 0.1.1 =
 Updated installation guide, added FAQ and Screenshots sections.

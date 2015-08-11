@@ -1,11 +1,28 @@
 <?php
 /*
 Plugin Name: Publicize With Hashtags
+Plugin URI: http://www.ryadel.com/works/publicize-with-hashtags/
 Description: Automatically append hashtags to any content sent by Jetpack's Publicize module: hashtags will be created using post tags: dupe check and an optional length-based threshold are also included.
-Version: 0.1.1
-License: GPL
+Version: 0.1.2
+License: GPLv2 or later
 Author: Darkseal
 Author URI: http://www.ryadel.com/
+*/
+
+/*
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
 // If Jetpack is not installed or Publicize module isn't active, just exit now.
@@ -48,7 +65,7 @@ function publicize_with_hashtags() {
 	// Create list of tags with hashtags in front of them until threshold is reached
 	foreach ($ta as $t) {
         // Create the hashtag, stripping spaces if needed.
-		$ht = '#' . ($strip_spaces) ? str_replace(' ', '', $t->name) : $t->name;
+		$ht = '#' . (($strip_spaces) ? str_replace(' ', '', $t->name) : $t->name);
 		// only process newly-added hashtags, skipping duplicate ones
 		if (stripos($mess,$ht) === false) {	
 			if (!empty($mess_max_length) && $mess_max_length <= (strlen($mess) + strlen($ht))) break;
