@@ -29,29 +29,40 @@ If you prefer to install the plugin manually, you can do the following:
 
 ## Frequently Asked Questions
 
-### What if I manually insert one or more hashtags?
+#### What if I manually insert one or more hashtags?
 
 They will be kept as they are: the plugin won't strip out anything, it will simply add the "missing" hashtags to the Custom Message box.
 
-### What if I already inserted an hashtags identical to an existing post tag?
+#### What if I already inserted an hashtags identical to an existing post tag?
 
 It won't be added again, as long as it's case-insensitive equal to the first one. The plugin will never insert a dupe hashtag on its own.
 
 
 ## Screenshots
 
+![alt text](https://s.w.org/plugins/publicize-with-hashtags/screenshot-1.jpg?r=1217800 "Plugin at work on the Jetpack's Publicize Widget Custom Message box")
+
 *The plugin will automatically trasform your post tags to hashtags and append them to the Publicize Widget's Custom Message box. Any existing, manually inserted hashtag will be kept and/or won't be added a second time if also included as a tag.*
+
+
+## Useful Links
+
+* [Plugin official page](https://wordpress.org/plugins/publicize-with-hashtags/) on Wordpress.org Plugin Browser.
+* [Plugin SVN Repository](http://plugins.svn.wordpress.org/publicize-with-hashtags/) hosted by Wordpress.org (in real-time sync with this GitHub repo).
+* TODO: Plugin official page at [Ryadel.com](https://www.ryadel.com/).
+* TODO: Ryadel.com article explaining how to use-it.
 
 
 ## Changelog
 
-### 0.1.1
+#### 0.1.1
 * Added an explicative screenshot
 * Added some Frequently Asked Questions
 * Small changes to readme.txt
 
-### 0.1
+#### 0.1
 * First release.
+
 
 ## Authors
 

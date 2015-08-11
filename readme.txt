@@ -25,6 +25,15 @@ As the name says, this plugin will automatically append hashtags to any content 
 * Automatically added hashtags won't break the *118-character limits* of the social message text to keep the message length under the standard *tweet + link* limit.
 * The above character-length threshold can be changed and/or set to infinite with ease.
 
+**Useful Links**
+
+* [Plugin SVN Repository](http://plugins.svn.wordpress.org/publicize-with-hashtags/) hosted by Wordpress.org (in real-time sync with the GitHub repo).
+* [Plugin GitHub Repository](https://github.com/Darkseal/publicize-with-hashtags) (in real-time sync with the official SVN repo).
+* TODO: Plugin official page at [Ryadel.com](https://www.ryadel.com/).
+* TODO: Ryadel.com article explaining how to use-it.
+
+
+
 == Installation ==
 
 Go to the **Plugins > Add New...** panel in the WP Admin interface, search for "publicize with hashtags" and click **Install**.
@@ -35,6 +44,8 @@ If you prefer to install the plugin manually, you can do the following:
 2. Upload the **publicize-with-hashtags.zip** file using the Wordpress *upload plugin* feature OR unpack its contents inside the `/wp-content/plugins/` folder.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 4. Take a look at the plugin's source code and change its default settings if needed.
+
+
 
 == Frequently Asked Questions ==
 
@@ -47,9 +58,11 @@ They will be kept as they are: the plugin won't strip out anything, it will simp
 It won't be added again, as long as it's case-insensitive equal to the first one. The plugin will never insert a dupe hashtag on its own.
 
 
+
 == Screenshots ==
 
 1. The plugin will automatically trasform your post tags to hashtags and append them to the Publicize Widget's Custom Message box. Any existing, manually inserted hashtag will be kept and/or won't be added a second time if also included as a tag.
+
 
 
 == Changelog ==
@@ -62,15 +75,20 @@ It won't be added again, as long as it's case-insensitive equal to the first one
 = 0.1 =
 * First release.
 
+
+
 == Upgrade Notice ==
 
+= 0.1.2 =
+Added guides & installation instruction links.
+
 = 0.1.1 =
-* Screenshot added
-* Frequently Asked Questions added
-* Updated installation guide
+Updated installation guide, added FAQ and Screenshots sections.
 
 = 0.1 =
-* First release
+First release.
+
+
 
 == Authors ==
 
