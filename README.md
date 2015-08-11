@@ -48,7 +48,9 @@ It won't be added again, as long as it's case-insensitive equal to the first one
 ## Useful Links
 
 * [Plugin official page](https://wordpress.org/plugins/publicize-with-hashtags/) on Wordpress.org Plugin Browser.
-* [Plugin SVN Repository](http://plugins.svn.wordpress.org/publicize-with-hashtags/) hosted by Wordpress.org (in real-time sync with this GitHub repo).
+* [Plugin SVN Repository](http://plugins.svn.wordpress.org/publicize-with-hashtags/) hosted by Wordpress.org (in real-time sync with the GitHub repo).
+* [Plugin GitHub Repository](https://github.com/Darkseal/publicize-with-hashtags) (in real-time sync with the SVN repo).
+* [Plugin GitHub Page](http://darkseal.github.io/publicize-with-hashtags/).
 * TODO: Plugin official page at [Ryadel.com](https://www.ryadel.com/).
 * TODO: Ryadel.com article explaining how to use-it.
 
