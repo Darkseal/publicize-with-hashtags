@@ -3,7 +3,7 @@ Contributors: neilgaiman
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JSTHA4HMVSQ8J
 Tags: jetpack, publicize, hashtag, hashtags, sharing, share, social, twitter, tweet
 Requires at least: 3.0.1
-Tested up to: 4.2.4
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,8 +30,8 @@ As the name says, this plugin will automatically append hashtags to any content 
 * [Plugin SVN Repository](http://plugins.svn.wordpress.org/publicize-with-hashtags/) hosted by Wordpress.org (in real-time sync with the GitHub repo).
 * [Plugin GitHub Repository](https://github.com/Darkseal/publicize-with-hashtags) (in real-time sync with the official SVN repo).
 * [Plugin GitHub Page](http://darkseal.github.io/publicize-with-hashtags/).
-* [Plugin official page](http://www.ryadel.com/works/publicize-with-hashtags/) at [Ryadel.com](https://www.ryadel.com/).
-* [Installation & Usage Guide](http://www.ryadel.com/en/add-hashtags-to-jetpack-publicize-shared-posts/) at [Ryadel.com](https://www.ryadel.com/).
+* [Plugin official page](http://www.ryadel.com/works/publicize-with-hashtags/) at [Ryadel.com](http://www.ryadel.com/).
+* [Installation & Usage Guide](http://www.ryadel.com/en/add-hashtags-to-jetpack-publicize-shared-posts/) at [Ryadel.com](http://www.ryadel.com/).
 
 
 
@@ -68,6 +68,9 @@ It won't be added again, as long as it's case-insensitive equal to the first one
 
 == Changelog ==
 
+= 0.1.3 =
+* Added WordPress 4.3 compatibility notice
+
 = 0.1.2 =
 * Fixed a bug in hashtags generation
 
@@ -82,6 +85,9 @@ It won't be added again, as long as it's case-insensitive equal to the first one
 
 
 == Upgrade Notice ==
+
+= 0.1.3 =
+* Added WordPress 4.3 compatibility notice
 
 = 0.1.2 =
 * Fixed a major bug

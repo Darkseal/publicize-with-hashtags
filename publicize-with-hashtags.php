@@ -3,7 +3,7 @@
 Plugin Name: Publicize With Hashtags
 Plugin URI: http://www.ryadel.com/works/publicize-with-hashtags/
 Description: Automatically append hashtags to any content sent by Jetpack's Publicize module: hashtags will be created using post tags: dupe check and an optional length-based threshold are also included.
-Version: 0.1.2
+Version: 0.1.3
 License: GPLv2 or later
 Author: Darkseal
 Author URI: http://www.ryadel.com/
@@ -28,7 +28,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 // If Jetpack is not installed or Publicize module isn't active, just exit now.
 if (!class_exists('Jetpack') || !Jetpack::is_module_active('publicize')) return;
 
-function publicize_with_hashtags() {
+// Main function
+function publicize_with_hashtags($ignorePostStatus = false) {
     
     // Set an optional character threshold (set to null to disable).
     // If you set it as a positive integer, hashtags will be appended only until this threshold is reached. 
@@ -51,6 +52,8 @@ function publicize_with_hashtags() {
     
     $p = get_post();
     if (empty($p)) return;
+    // If the post is already published do nothing, unless $ignorePostStatus is set to TRUE
+    if (!$ignorePostStatus && $p->post_status === 'publish') return;
     // Get the current post social message
     $mess = get_post_meta($p->ID, $meta, true);
     // Performance-wise length check: do nothing if we're already out of threshold.
