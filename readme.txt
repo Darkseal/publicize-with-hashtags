@@ -68,6 +68,9 @@ It won't be added again, as long as it's case-insensitive equal to the first one
 
 == Changelog ==
 
+= 0.1.4 =
+* Fixed a bug for some auto-saved posts missing their title in their social text 
+
 = 0.1.3 =
 * Added WordPress 4.3 compatibility notice
 
@@ -85,6 +88,9 @@ It won't be added again, as long as it's case-insensitive equal to the first one
 
 
 == Upgrade Notice ==
+
+= 0.1.4 =
+* Bugfix
 
 = 0.1.3 =
 * Added WordPress 4.3 compatibility notice
